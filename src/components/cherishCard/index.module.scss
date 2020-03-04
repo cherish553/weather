@@ -1,0 +1,21 @@
+@import '../../style/index.scss';
+
+.card {
+  margin-top: 30px;
+  text-align: center;
+  width: 300px;
+  height: 100px;
+  // @include flex(space-between,center);
+  // flex-wrap: wrap;
+
+  .inner {
+    // width: 100%;
+    font-size: 40px;
+    color: $fontSM;
+  }
+
+  .title {
+    font-size: 24px;
+    color: $fontSM;
+  }
+}

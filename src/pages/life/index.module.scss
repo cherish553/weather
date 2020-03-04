@@ -1,0 +1,55 @@
+@import '../../style/index.scss';
+
+@mixin bgc {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.bgc {
+  background: url('http://cdns.cherish553.cn/bgi3.jpg');
+  background-size: cover;
+}
+
+.mask {
+  @include bgc;
+}
+
+.flex {
+  margin: 20px auto 0;
+  color: $fontColor;
+
+  .location {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+  }
+}
+
+.list {
+  @include flex;
+  padding: 40px;
+
+  .leftBanner {
+    flex-shrink: 0;
+    width: 160px;
+
+    .image {
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
+
+.scroll {
+  height: 850px;
+
+  .title {
+    font-size: 32px;
+    color: white;
+  }
+
+  .inner {
+    margin-top: 10px;
+    font-size: 24px;
+    color: white;
+  }
+}

@@ -1,0 +1,10 @@
+@mixin flex($value: space-between, $align:center) {
+  display: flex;
+  justify-content: $value;
+  align-items: $align;
+}
+$height:128px;
+$background: #E8E8E8;
+$color: #1296db;
+$fontColor: #3c2202;
+$fontSM:#633904

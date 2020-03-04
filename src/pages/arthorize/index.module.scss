@@ -1,0 +1,98 @@
+@import '../../style/index.scss';
+
+.bgc {
+  background: url('http://cdns.cherish553.cn/bgi2.jpg');
+  background-size: cover;
+}
+
+.authority {
+  @include flex;
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+
+  .main {
+    width: 100%;
+    .tip{
+      box-sizing: border-box;
+      width: 100%;
+      padding: 30px;
+      text-align: center;
+      color: white;
+    }
+    .botton {
+      @include flex;
+      margin-top: 30px;
+
+      .getLoaction {
+        width: 50%;
+        height: 70px;
+        line-height: 70px;
+        font-size: 40px;
+        text-align: center;
+      }
+
+      .skip {
+        width: 30%;
+        height: 70px;
+        line-height: 70px;
+        font-size: 40px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+// .search {
+//   @include flex
+// }
+
+// .marginTop {
+//   margin-top: 80px;
+// }
+
+// .opacity {
+//   background-color: rgba(255, 255, 255, 0.4);
+// }
+
+// .flex {
+//   text-align: center;
+//   box-sizing: border-box;
+//   margin: 20px auto 0;
+//   color: $fontSM;
+
+//   .tmp {
+//     &:after {
+//       content: '°';
+//       position: absolute;
+//     }
+
+//     position: relative;
+//     font-size: 140px;
+//   }
+
+//   .location {
+//     font-size: 50px;
+//   }
+
+//   .rightTime {
+//     text-align: right;
+//   }
+
+//   .weatherIcon {
+//     margin: 0 auto;
+//     display: block;
+//     height: 100px;
+//     width: 100px;
+//   }
+
+// }
+
+// .card {
+//   @include flex(space-between, center);
+//   margin-top: 10px;
+//   flex-wrap: wrap;
+//   padding: 0 30px;
+//   width: 100%;
+//   box-sizing: border-box;
+// }

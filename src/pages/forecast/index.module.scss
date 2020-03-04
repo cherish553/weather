@@ -1,0 +1,60 @@
+@import '../../style/index.scss';
+
+.bgc {
+  background: url('http://cdns.cherish553.cn/bgi1.jpg');
+  background-size: cover;
+}
+
+.marginTop {
+  margin-top: 80px;
+}
+
+.opacity {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.flex {
+  margin: 20px auto 0;
+  color: $fontColor;
+
+  .location {
+    color: $fontColor;
+    text-align: center;
+    font-size: 50px;
+  }
+}
+
+.cardList {
+  color: $fontColor;
+  margin-top: 100px;
+
+  .card {
+    background-color: rgba(255,255,255,.8);
+    margin:10px 40px;
+    border:1px solid rgba(0,0,0,.1);
+    border-radius: 20px;
+    padding: 40px;
+
+    .topNav {
+        @include flex;
+      .date {
+        font-size: 40px;
+      }
+    }
+
+
+    .inner {
+      color: $fontSM;
+      margin-top: 40px;
+      @include flex;
+
+      .left {
+        @include flex;
+
+        .cond {
+          margin-left: 80px;
+        }
+      }
+    }
+  }
+}

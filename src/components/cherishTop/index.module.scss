@@ -1,0 +1,14 @@
+@import '../../style/index.scss';
+
+.top {
+  width: 100%;
+  height: $height;
+  // background-image: linear-gradient(-90deg, #29bdd9 0%, #276ace 100%);
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  line-height: 170px;
+  color: black;
+  z-index: 10;
+}
